@@ -1,0 +1,68 @@
+.comp-logo{
+    width: 44.977px;
+    height: 28px;
+    flex-shrink: 0;
+}
+.menu-image{
+    justify-items: end;
+}
+.hero-image{
+    
+
+}
+.article-title{
+    width: 343px;
+    color: var(--dark-space-blue, #00001A);
+    font-size: 40px;
+    line-height: 40px; /* 100% */
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.container-new{
+    background-color: #00001A;
+    width: 343px;
+    height: 489px;
+    
+    
+}
+.new-banner{
+    color: #E9AA52;
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 2.19rem;
+    padding-left: 1.3rem;
+
+}
+.new-title{
+    color: #FFFDFA;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 1.3rem;
+    
+}
+.new-title-snippet{
+    color: #C5C6CE;
+    font-size: 15px;
+    line-height: 26px;
+    padding-left: 1.3rem;
+}
+.container-read{
+    background-color: #F15D51;
+    position: relative;
+    width: 185px;
+    height: 48px;
+    left: 16px;
+
+}
+.link-lettering{
+    color: #FFFDFA;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4.375px;
+    top: 13px;
+    left: 31px;
+
+}
