@@ -1,59 +1,91 @@
 .comp-logo{
     width: 44.977px;
     height: 28px;
-    flex-shrink: 0;
+    margin-top: 28px;
+    margin-left: 16px;
 }
 .menu-image{
-    justify-items: end;
+    margin-right: 16px;
+    /* margin-left: 319px; */
+    margin-top: 34px;
+    position:fixed;
+    width: 40px;
+    height: 17px;
+}
+.container{
+    background-color: #FFFDFA;
+    /* width: 375px;
+    height: 1872px; */
+    position: absolute;
+    max-width: 375px;
+    height: 1872px;
+    
 }
 .hero-image{
-    
+    left: 16px;
+    position: relative;
+    width: 375px;
+    height: 300px;
+    object-position: cover;
 
 }
 .article-title{
     width: 343px;
     color: var(--dark-space-blue, #00001A);
     font-size: 40px;
-    line-height: 40px; /* 100% */
-    padding-left: 1rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+    line-height: 40px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.article-content{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+
 }
 .container-new{
     background-color: #00001A;
     width: 343px;
     height: 489px;
-    
+    margin-left: 16px;
+    margin-bottom: 64px;
     
 }
 .new-banner{
     color: #E9AA52;
     font-size: 32px;
     line-height: 32px;
-    padding-bottom: 2.19rem;
-    padding-left: 1.3rem;
+    padding-bottom: 35px;
+    padding-left: 21px;
 
 }
 .new-title{
     color: #FFFDFA;
     font-size: 20px;
     line-height: 24px;
-    padding-left: 1.3rem;
+    padding-left: 21px;
+    
     
 }
 .new-title-snippet{
     color: #C5C6CE;
     font-size: 15px;
     line-height: 26px;
-    padding-left: 1.3rem;
+    margin-left: 21px;
+    margin-bottom: 61px;
+    
 }
 .container-read{
     background-color: #F15D51;
     position: relative;
     width: 185px;
     height: 48px;
-    left: 16px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 64px;
 
 }
 .link-lettering{
@@ -65,4 +97,35 @@
     top: 13px;
     left: 31px;
 
+}
+.container-list{
+    
+}
+.article-image{
+    margin-left: 16px;
+}
+.article-num{
+    color: #C5C6CE;
+    font-size: 32px;
+    line-height: 32px;
+    position: relative;
+    left: 171.5px;
+    bottom: 130px;
+
+}
+.article-headline{
+    color: #00001A;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    left: 171.5px;
+    bottom: 118px;
+}
+.article-snippet{
+    color: #5E607A;
+    font-size: 15px;
+    line-height: 26px;
+    position: relative;
+    left: 171.5px;
+    bottom: 109px;
 }
